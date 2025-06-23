@@ -19,8 +19,8 @@
 1. **克隆仓库**：
 
    ```bash
-   git clone <your-repository-url>
-   cd MCP-Tools/L0/mcp_getting_started
+   git clone https://github.com/ChengzeHsiao/SLURM-MCP-Server.git
+   cd SLURM-MCP-Server
    ```
 
 2. **创建并激活虚拟环境**：
