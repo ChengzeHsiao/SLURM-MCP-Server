@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+# file: slurm_mcp_server.py
+# description: SLURM 任务管理 MCP 服务器端代码
+# author: Chengze.Xiao
+# email: chengzehsiao@outlook.com
+# date: 2025-06-23
+#
+
 from mcp.server import FastMCP
 
 app = FastMCP('slurm-mcp-server')
