@@ -1,6 +1,6 @@
-# SLURM 任务管理 MCP 服务器
+# SLURM 任务管理 MCP 服务
 
-`slurm_mcp_server.py` 是一个基于 `FastMCP` 框架开发的 SLURM 任务管理服务器。它提供了一系列 API 工具，用于远程管理 SLURM 集群中的作业、查询节点和分区信息。
+`slurm_mcp_server.py` 是一个基于 `FastMCP` 框架开发的 SLURM 任务管理服务。它提供了一系列 API 工具，用于远程管理 SLURM 集群中的作业、查询节点和分区信息。
 
 ## 功能
 
@@ -50,7 +50,7 @@
 
 ## 使用方法
 
-1. **启动服务器**：
+1. **启动服务**：
 
    ```bash
    python3 slurm_mcp_server.py
@@ -58,7 +58,7 @@
    nohup python3 slurm_mcp_server.py &
    ```
 
-   服务器将默认在 `http://0.0.0.0:8000` 启动。
+   服务将默认在 `http://0.0.0.0:8000` 启动。
 
 2. **通过 API 调用**：
 
