@@ -15,6 +15,11 @@
 - **获取 SLURM 集群分区信息**：查询集群中所有分区的信息。
 - **采用 MCP SSE 服务类型**：MCP Client 配置为 SSE 服务类型。
 
+## 效果
+![image](https://github.com/user-attachments/assets/e6a41dcf-cecd-42b0-aee1-35bf1bd1a268)
+
+![image](https://github.com/user-attachments/assets/8af59e42-a4ba-4611-a2df-9c451cd83574)
+
 ## 安装
 
 1. **克隆仓库**：
