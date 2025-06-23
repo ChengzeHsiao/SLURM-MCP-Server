@@ -22,21 +22,25 @@
 
 ## 安装
 
-1. **克隆仓库**：
+1. **推荐运行环境**：
+
+   在SLURM Login\SLURM Haed 节点运行，推荐在 Haed节点运行。
+   
+3. **克隆仓库**：
 
    ```bash
    git clone https://github.com/ChengzeHsiao/SLURM-MCP-Server.git
    cd SLURM-MCP-Server
    ```
 
-2. **创建并激活虚拟环境**：
+4. **创建并激活虚拟环境**：
 
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
    ```
 
-3. **安装依赖**：
+5. **安装依赖**：
 
    ```bash
    pip install -r requirements.txt # 如果有 requirements.txt
@@ -50,6 +54,8 @@
 
    ```bash
    python3 slurm_mcp_server.py
+   # 或者后台运行
+   nohup python3 slurm_mcp_server.py &
    ```
 
    服务器将默认在 `http://0.0.0.0:8000` 启动。
